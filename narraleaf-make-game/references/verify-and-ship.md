@@ -76,7 +76,8 @@ How the playtest tools behave:
 - Every result names the line it is on (and a menu's options), so take a `playtest_screenshot` only
   when you need to see the picture. It shows what the player sees - the stage with its Game UI and
   any page or layer open over it (a backlog or settings page opened in game, a Confirm dialog);
-  `view: "stage"` gives the stage alone, as a save thumbnail shows it.
+  `view: "stage"` gives the stage alone, as a save thumbnail shows it - with its text in a fallback
+  typeface, so check the project's fonts in the default view.
 - Every result also lists the errors and warnings Dev Mode has reported in this run, newest first,
   with the scene and row (or the page) each came from (`issues`) - the same ones the issue strip at
   the top of the Dev Mode window counts. Read them: a warning there is usually a blueprint input left
@@ -167,9 +168,9 @@ Write a one-line verdict per screenshot in the chat; fix and replay what fails.
 ## 4. Console
 
 `console_read` returns Studio's recent console lines; filter with `level` (`error`, `warning`) and
-`channel` (build, story, blueprint, runtime). Read it after each playtest and after the build. A
-runtime error with no row to point at, on game start, is very often a `/bg` inside an `/if` or menu
-option (see `story-format`).
+`channel`: `build` (builds, and everything Dev Mode reports - the running game's errors land here),
+`blueprint`, `lint`, `storage`, `agent` (your own calls), and `story` while a scene's editor is open.
+Read it after each playtest and after the build.
 
 ## 5. Build
 
@@ -200,7 +201,7 @@ Tell the author, in this order:
    `machine` awaiting their review (`localization_status`); per voice language, how many lines have
    a take, how many are approved, and which recordings are missing (`voice_status`, `voice_list
    {unlinkedOnly:true}`).
-5. **How to run it** - the file to open, from the build result's `artifacts` (the `.app`, installer or
-   app folder); an unsigned macOS build has to be allowed once in System Settings > Privacy &
+5. **How to run it** - the file to open, from the build result's `artifacts` (the `.app` or the app
+   folder); an unsigned macOS build has to be allowed once in System Settings > Privacy &
    Security. Or press Play in Studio.
 6. **Known limits** - anything you simplified from their script, and why.
