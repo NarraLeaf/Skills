@@ -314,8 +314,9 @@ blueprint per row: copy the pattern with new UUIDs for the next one.
 ## An achievement row
 
 With the Steam Achievements plugin loaded, an achievement is unlocked by a plugin row of its own, on
-the line where it is earned - no blueprint needed. In Studio the author types `/unlock ACH_NAME`;
-the `.story` text has no spelling for a plugin row, so write it as a `»` row with its payload in
+the line where it is earned - no blueprint needed. In Studio the author types the plugin's
+`unlock` command with the name; the `.story` text has no spelling for a plugin row (a typed line
+is `compile.unknownCommand`), so write it as a `»` row with its payload in
 `#data` (one fresh UUID; the anchor is its first 8 characters):
 
 ```
