@@ -46,6 +46,9 @@ NarraLeaf-Skills/
   AGENTS.md                  pointer for agents that read AGENTS.md
   mcp-configs/               ready-made connection settings per agent
   narraleaf-make-game/       the skill (SKILL.md + references/ + assets/)
+    references/catalog/      every blueprint node, widget property, story command, shortcut and
+                             help topic, named as Studio's interface names them (Chinese and English);
+                             generated from the Studio source, so never edit it by hand
 ```
 
 ## Getting started
