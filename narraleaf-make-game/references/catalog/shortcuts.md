@@ -9,18 +9,18 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 
 ## 通用 · General
 
-- 显示并运行命令 · Show and Run Commands：`⌘⇧P`（macOS）/ `Ctrl+Shift+P`（Windows）
+- 显示并运行命令 · Show and Run Commands：`⇧⌘P`（macOS）/ `Ctrl+Shift+P`（Windows）
 - 快速打开 · Quick Open：`⌘P`（macOS）/ `Ctrl+P`（Windows）
 - 显示快捷键与鼠标操作 · Show Shortcuts and Mouse Actions：`⇧?`（macOS）/ `Shift+?`（Windows）
 - 当前位置的帮助 · Help for What Is Focused：`F1`
-- 重新打开关闭的标签 · Reopen Closed Tab：`⌘⇧T`（macOS）/ `Ctrl+Shift+T`（Windows）
+- 重新打开关闭的标签 · Reopen Closed Tab：`⇧⌘T`（macOS）/ `Ctrl+Shift+T`（Windows）
 - 打开设置 · Open settings：`⌘,`（macOS）/ `Ctrl+,`（Windows）
 - 撤销 · Undo：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
-- 重做 · Redo：`⌘⇧Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
+- 重做 · Redo：`⇧⌘Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
 - 切换到下一个编辑器标签 · Switch to Next Editor Tab：`⌃Tab`（macOS）/ `Ctrl+Tab`（Windows）
 - 切换到上一个编辑器标签 · Switch to Previous Editor Tab：`⌃⇧Tab`（macOS）/ `Ctrl+Shift+Tab`（Windows）
 - 向右拆分编辑器 · Split Editor Right：`⌘\`（macOS）/ `Ctrl+\`（Windows）
-- 向下拆分编辑器 · Split Editor Down：`⌘⌥\`（macOS）/ `Ctrl+Alt+\`（Windows）
+- 向下拆分编辑器 · Split Editor Down：`⌥⌘\`（macOS）/ `Ctrl+Alt+\`（Windows）
 - 关闭标签页 · Close Tab：`⌘W`（macOS）/ `Ctrl+W`（Windows）；也可以 · also：中键单击标签页 · Middle-click a tab
 - 保留预览标签页 · Keep a Preview Tab Open：双击标签页 · Double-click a tab（不可改 · fixed）
 - 选择多个标签页 · Select Several Tabs：Ctrl+单击标签页 · Ctrl+Click a tab；Shift+单击标签页 · Shift+Click a tab（不可改 · fixed）
@@ -36,10 +36,10 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 
 ## 视图 · View
 
-- 切换左边栏显示 · Toggle Left Bar：`⌘⇧B`（macOS）/ `Ctrl+Shift+B`（Windows）
+- 切换左边栏显示 · Toggle Left Bar：`⇧⌘B`（macOS）/ `Ctrl+Shift+B`（Windows）
 - 切换底边栏显示 · Toggle Bottom Bar：`⌘J`（macOS）/ `Ctrl+J`（Windows）
-- 切换右边栏显示 · Toggle Right Bar：`⌘⌥R`（macOS）/ `Ctrl+Alt+R`（Windows）
-- 搜索 · Search：`⌘⇧F`（macOS）/ `Ctrl+Shift+F`（Windows）
+- 切换右边栏显示 · Toggle Right Bar：`⌥⌘R`（macOS）/ `Ctrl+Alt+R`（Windows）
+- 搜索 · Search：`⇧⌘F`（macOS）/ `Ctrl+Shift+F`（Windows）
 
 ## 故事编辑器 · Story Editor
 
@@ -53,7 +53,7 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 - 删除选中的故事行 · Delete selected story rows：`Delete`
 - 删除选中的故事行（多选时需确认） · Delete selected story rows with multi-select confirmation：`Backspace`
 - 撤销故事场景编辑 · Undo story scene edit：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
-- 重做故事场景编辑 · Redo story scene edit：`⌘⇧Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
+- 重做故事场景编辑 · Redo story scene edit：`⇧⌘Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
 - 增加选中故事行的缩进 · Indent selected story rows：`Tab`
 - 减少选中故事行的缩进 · Outdent selected story rows：`⇧Tab`（macOS）/ `Shift+Tab`（Windows）
 - 选中所有可见的故事行 · Select all visible story rows：`⌘A`（macOS）/ `Ctrl+A`（Windows）
@@ -80,17 +80,19 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 - 粘贴时不打开「粘贴为行」 · Paste Without Paste as Rows：Ctrl+Shift+V（不可改 · fixed）
 - 缓动曲线控制点吸附到网格 · Snap an Easing Handle to the Grid：Shift+拖动控制点 · Shift+Drag a handle（不可改 · fixed）
 - 微调选中的缓动曲线控制点 · Nudge a Focused Easing Handle：方向键 · Arrow keys（不可改 · fixed）
+- 平移画布 · Pan the Canvas：中键拖动 · Middle-drag；空格键+拖动 · Space+Drag；滚动滚轮 · Scroll（不可改 · fixed）
+- 以指针为中心缩放 · Zoom at the Pointer：Ctrl+滚动滚轮 · Ctrl+Scroll（不可改 · fixed）
 
 ## UI 编辑器 · UI Editor
 
 - 撤销 · Undo：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
-- 重做 · Redo：`⌘⇧Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
+- 重做 · Redo：`⇧⌘Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
 - 复制 · Copy：`⌘C`（macOS）/ `Ctrl+C`（Windows）
 - 剪切 · Cut：`⌘X`（macOS）/ `Ctrl+X`（Windows）
 - 粘贴 · Paste：`⌘V`（macOS）/ `Ctrl+V`（Windows）
 - 创建副本 · Duplicate：`⌘D`（macOS）/ `Ctrl+D`（Windows）
 - 编组 · Group：`⌘G`（macOS）/ `Ctrl+G`（Windows）
-- 取消编组 · Ungroup：`⌘⇧G`（macOS）/ `Ctrl+Shift+G`（Windows）
+- 取消编组 · Ungroup：`⇧⌘G`（macOS）/ `Ctrl+Shift+G`（Windows）
 - 全选 · Select All：`⌘A`（macOS）/ `Ctrl+A`（Windows）
 - 删除所选 · Delete Selection：`Delete`
 - 删除所选 · Delete Selection：`Backspace`
@@ -115,8 +117,8 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 - 吸附到网格 · Snap to grid：`R`
 - 上移一层 · Bring forward：`⌘]`（macOS）/ `Ctrl+]`（Windows）
 - 下移一层 · Send backward：`⌘[`（macOS）/ `Ctrl+[`（Windows）
-- 置于顶层 · Bring to front：`⌘⌥]`（macOS）/ `Ctrl+Alt+]`（Windows）
-- 置于底层 · Send to back：`⌘⌥[`（macOS）/ `Ctrl+Alt+[`（Windows）
+- 置于顶层 · Bring to front：`⌥⌘]`（macOS）/ `Ctrl+Alt+]`（Windows）
+- 置于底层 · Send to back：`⌥⌘[`（macOS）/ `Ctrl+Alt+[`（Windows）
 - 放大 · Zoom in：`+`
 - 缩小 · Zoom out：`-`
 - 缩放到 100% · Zoom to 100%：`⇧0`（macOS）/ `Shift+0`（Windows）
@@ -150,13 +152,16 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 ## 蓝图编辑器 · Blueprint Editor
 
 - 撤销 · Undo：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
-- 重做 · Redo：`⌘⇧Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
+- 重做 · Redo：`⇧⌘Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
 - 复制节点 · Copy Nodes：`⌘C`（macOS）/ `Ctrl+C`（Windows）
 - 剪切节点 · Cut Nodes：`⌘X`（macOS）/ `Ctrl+X`（Windows）
 - 粘贴节点 · Paste Nodes：`⌘V`（macOS）/ `Ctrl+V`（Windows）
-- 将节点复制为文本 · Copy Nodes as Text：`⌘⇧C`（macOS）/ `Ctrl+Shift+C`（Windows）
+- 将节点复制为文本 · Copy Nodes as Text：`⇧⌘C`（macOS）/ `Ctrl+Shift+C`（Windows）
+- 创建所选节点的副本 · Duplicate Selected Nodes：`⌘D`（macOS）/ `Ctrl+D`（Windows）
+- 选中图层中的全部节点 · Select All Nodes in the Layer：`⌘A`（macOS）/ `Ctrl+A`（Windows）
+- 取消选择节点 · Deselect Nodes：`Esc`
 - 在蓝图总览中查找 · Find in Blueprint Overview：`⌘F`（macOS）/ `Ctrl+F`（Windows）
-- 平移画布 · Pan the Canvas：中键拖动 · Middle-drag；Ctrl+拖动 · Ctrl+Drag；滚动滚轮 · Scroll（不可改 · fixed）
+- 平移画布 · Pan the Canvas：中键拖动 · Middle-drag；空格键+拖动 · Space+Drag；Ctrl+拖动 · Ctrl+Drag；滚动滚轮 · Scroll（不可改 · fixed）
 - 以指针为中心缩放 · Zoom at the Pointer：Ctrl+滚动滚轮 · Ctrl+Scroll（不可改 · fixed）
 - 加入选择 · Add to Selection：Shift+单击节点 · Shift+Click a node（不可改 · fixed）
 - 添加节点 · Add a Node：右键单击画布 · Right-click the canvas（不可改 · fixed）
@@ -169,7 +174,7 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 ## 故事动效 · Story Motion
 
 - 撤销 · Undo：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
-- 重做 · Redo：`⌘⇧Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
+- 重做 · Redo：`⇧⌘Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
 - 删除选中的关键帧 · Delete Selected Keyframes：`Delete`
 - 删除选中的关键帧 · Delete Selected Keyframes：`Backspace`
 - 播放头后退一帧 · Step Playhead Back One Frame：`←`
@@ -239,13 +244,13 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 - 跳到入点 · Go to in point：`⇧I`（macOS）/ `Shift+I`（Windows）
 - 跳到循环点 · Go to loop point：`⇧L`（macOS）/ `Shift+L`（Windows）
 - 跳到出点 · Go to out point：`⇧O`（macOS）/ `Shift+O`（Windows）
-- 清除入点 · Clear in point：`⌘⇧I`（macOS）/ `Ctrl+Shift+I`（Windows）
-- 清除循环点 · Clear loop point：`⌘⇧L`（macOS）/ `Ctrl+Shift+L`（Windows）
-- 清除出点 · Clear out point：`⌘⇧O`（macOS）/ `Ctrl+Shift+O`（Windows）
-- 清除全部标记 · Clear all markers：`⌘⇧Backspace`（macOS）/ `Ctrl+Shift+Backspace`（Windows）
+- 清除入点 · Clear in point：`⇧⌘I`（macOS）/ `Ctrl+Shift+I`（Windows）
+- 清除循环点 · Clear loop point：`⇧⌘L`（macOS）/ `Ctrl+Shift+L`（Windows）
+- 清除出点 · Clear out point：`⇧⌘O`（macOS）/ `Ctrl+Shift+O`（Windows）
+- 清除全部标记 · Clear all markers：`⇧⌘Backspace`（macOS）/ `Ctrl+Shift+Backspace`（Windows）
 - 试听循环接缝 · Audition loop seam：`⇧Space`（macOS）/ `Shift+Space`（Windows）
 - 撤销标记改动 · Undo marker change：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
-- 重做标记改动 · Redo marker change：`⌘⇧Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
+- 重做标记改动 · Redo marker change：`⇧⌘Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
 - 选中整段 · Select whole clip：`⌘A`（macOS）/ `Ctrl+A`（Windows）；也可以 · also：双击波形 · Double-click the waveform
 - 清除选区 · Clear selection：`Esc`
 - 放大 · Zoom in：`+`
@@ -271,7 +276,7 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 - 加入或移出选择 · Add to or Remove from Selection：Ctrl+单击资产 · Ctrl+Click an asset（不可改 · fixed）
 - 选择连续多个资产 · Select a Range of Assets：Shift+单击资产 · Shift+Click an asset（不可改 · fixed）
 - 打开 · Open：Enter；双击 · Double-click；拖到编辑区 · Drag into the editor area（不可改 · fixed）
-- 返回上级分组 · Back to parent group：Backspace；Alt+↑（不可改 · fixed）
+- 返回上级分组 · Back to parent group：Alt+↑；Ctrl+↑（不可改 · fixed）
 - 移动选择 · Move the Selection：方向键 · Arrow keys；Home；End（不可改 · fixed）
 - 扩展选择 · Extend the Selection：Shift+方向键 · Shift+Arrow keys；Shift+Home；Shift+End（不可改 · fixed）
 - 在分组树中移动 · Move Through the Group Tree：方向键 · Arrow keys（不可改 · fixed）
@@ -300,4 +305,4 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 ## 搜索 · Search
 
 - 撤销替换 · Undo Replace：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
-- 重做替换 · Redo Replace：`⌘⇧Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
+- 重做替换 · Redo Replace：`⇧⌘Z`（macOS）/ `Ctrl+Shift+Z`（Windows）

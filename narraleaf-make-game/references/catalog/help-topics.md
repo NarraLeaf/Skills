@@ -32,7 +32,7 @@ Dialogs, the groups on the Project panel, the blueprint editor and the version r
 相关快捷键 · Shortcuts：
 
 - 当前位置的帮助 · Help for What Is Focused：`F1`
-- 显示并运行命令 · Show and Run Commands：`⌘⇧P`（macOS）/ `Ctrl+Shift+P`（Windows）
+- 显示并运行命令 · Show and Run Commands：`⇧⌘P`（macOS）/ `Ctrl+Shift+P`（Windows）
 
 相关主题 · Related：工作区布局 · Workspace layout、键盘与鼠标 · Keyboard and Mouse、查找 · Search
 
@@ -53,7 +53,7 @@ The rail on the left switches the side panel, among them story, characters, sear
 相关快捷键 · Shortcuts：
 
 - 向右拆分编辑器 · Split Editor Right：`⌘\`（macOS）/ `Ctrl+\`（Windows）
-- 向下拆分编辑器 · Split Editor Down：`⌘⌥\`（macOS）/ `Ctrl+Alt+\`（Windows）
+- 向下拆分编辑器 · Split Editor Down：`⌥⌘\`（macOS）/ `Ctrl+Alt+\`（Windows）
 - 平分编辑区 · Split the Editor Area Evenly：双击分隔条 · Double-click the divider
 - 切换到下一个编辑器标签 · Switch to Next Editor Tab：`⌃Tab`（macOS）/ `Ctrl+Tab`（Windows）
 
@@ -132,7 +132,7 @@ Shortcuts and Mouse Actions lists every shortcut and mouse action in Studio, gro
 相关快捷键 · Shortcuts：
 
 - 显示快捷键与鼠标操作 · Show Shortcuts and Mouse Actions：`⇧?`（macOS）/ `Shift+?`（Windows）
-- 显示并运行命令 · Show and Run Commands：`⌘⇧P`（macOS）/ `Ctrl+Shift+P`（Windows）
+- 显示并运行命令 · Show and Run Commands：`⇧⌘P`（macOS）/ `Ctrl+Shift+P`（Windows）
 
 相关主题 · Related：工作区布局 · Workspace layout、Studio 设置 · Studio settings
 
@@ -160,11 +160,11 @@ The Search panel and the search box in the title bar search the whole project: t
 
 相关快捷键 · Shortcuts：
 
-- 显示并运行命令 · Show and Run Commands：`⌘⇧P`（macOS）/ `Ctrl+Shift+P`（Windows）
+- 显示并运行命令 · Show and Run Commands：`⇧⌘P`（macOS）/ `Ctrl+Shift+P`（Windows）
 - 快速打开 · Quick Open：`⌘P`（macOS）/ `Ctrl+P`（Windows）
 - 查找和替换 · Find and replace：`⌘F`（macOS）/ `Ctrl+F`（Windows）
 - 撤销替换 · Undo Replace：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
-- 重做替换 · Redo Replace：`⌘⇧Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
+- 重做替换 · Redo Replace：`⇧⌘Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
 
 相关主题 · Related：场景与行 · Scenes and rows
 
@@ -187,8 +187,8 @@ Undo reverses the last change, in the editor that made it. The editor with focus
 相关快捷键 · Shortcuts：
 
 - 撤销 · Undo：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
-- 重做 · Redo：`⌘⇧Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
-- 重新打开关闭的标签 · Reopen Closed Tab：`⌘⇧T`（macOS）/ `Ctrl+Shift+T`（Windows）
+- 重做 · Redo：`⇧⌘Z`（macOS）/ `Ctrl+Shift+Z`（Windows）
+- 重新打开关闭的标签 · Reopen Closed Tab：`⇧⌘T`（macOS）/ `Ctrl+Shift+T`（Windows）
 
 相关主题 · Related：工作区布局 · Workspace layout、版本控制 · Version control
 
@@ -732,7 +732,7 @@ Everything the game loads is an asset: images, audio and video, data files, font
 - 复制选中的资产 · Copy selected assets：`⌘C`（macOS）/ `Ctrl+C`（Windows）
 - 粘贴资产 · Paste assets：`⌘V`（macOS）/ `Ctrl+V`（Windows）
 - 选择连续多个资产 · Select a Range of Assets：Shift+单击资产 · Shift+Click an asset
-- 返回上级分组 · Back to parent group：Backspace；Alt+↑
+- 返回上级分组 · Back to parent group：Alt+↑；Ctrl+↑
 
 相关主题 · Related：资产的来源 · Where an asset's file comes from、资产集 · Asset sets、角色 · Characters、音频轨道 · Audio tracks、项目检查 · Project checks
 
@@ -967,7 +967,7 @@ Opening an audio asset shows its waveform, where three marks can be set: the in 
 - 设置入点 · Set in point：`I`
 - 设置循环点 · Set loop point：`L`
 - 设置出点 · Set out point：`O`
-- 清除全部标记 · Clear all markers：`⌘⇧Backspace`（macOS）/ `Ctrl+Shift+Backspace`（Windows）
+- 清除全部标记 · Clear all markers：`⇧⌘Backspace`（macOS）/ `Ctrl+Shift+Backspace`（Windows）
 - 在时间方向缩放波形 · Zoom the Waveform in Time：Ctrl+滚动滚轮 · Ctrl+Scroll
 
 相关主题 · Related：音频轨道 · Audio tracks、资产 · Assets
@@ -1456,10 +1456,10 @@ Execution follows the wires between the nodes. One kind of wire sets the order o
 - 添加节点 · Add a Node：右键单击画布 · Right-click the canvas
 - 添加并连接节点 · Add a Connected Node：从引脚拖到画布空白处 · Drag from a pin onto empty canvas
 - 删除连线 · Delete a Wire：双击连线 · Double-click a wire
-- 平移画布 · Pan the Canvas：中键拖动 · Middle-drag；Ctrl+拖动 · Ctrl+Drag；滚动滚轮 · Scroll
+- 平移画布 · Pan the Canvas：中键拖动 · Middle-drag；空格键+拖动 · Space+Drag；Ctrl+拖动 · Ctrl+Drag；滚动滚轮 · Scroll
 - 复制节点 · Copy Nodes：`⌘C`（macOS）/ `Ctrl+C`（Windows）
 - 粘贴节点 · Paste Nodes：`⌘V`（macOS）/ `Ctrl+V`（Windows）
-- 将节点复制为文本 · Copy Nodes as Text：`⌘⇧C`（macOS）/ `Ctrl+Shift+C`（Windows）
+- 将节点复制为文本 · Copy Nodes as Text：`⇧⌘C`（macOS）/ `Ctrl+Shift+C`（Windows）
 - 撤销 · Undo：`⌘Z`（macOS）/ `Ctrl+Z`（Windows）
 
 相关主题 · Related：脚本 · Scripts、界面上的值 · Values on a screen、游戏界面 · Game screens、变量 · Variables
