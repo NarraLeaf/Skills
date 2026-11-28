@@ -223,6 +223,7 @@ Studio's default shortcuts and mouse gestures, grouped as the Keyboard Shortcuts
 - 剪切选中的资产 · Cut selected assets：`⌘X`（macOS）/ `Ctrl+X`（Windows）
 - 粘贴资产 · Paste assets：`⌘V`（macOS）/ `Ctrl+V`（Windows）
 - 删除选中的资产或分组 · Delete selected assets or groups：`Delete`
+- 删除选中的资产或分组（退格键） · Delete selected assets or groups (Backspace)：`Backspace`
 - 重命名选中的资产或分组 · Rename selected asset or group：`F2`
 - 播放 / 暂停 · Play or pause：`Space`
 - 回到开头 · Go to start：`Home`
